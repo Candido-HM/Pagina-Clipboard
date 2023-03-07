@@ -576,7 +576,7 @@ main {
         background: no-repeat 0% 0% / 100% url('/images/bg-header-mobile.png');
 
         h1 {
-            font-size: 49px;
+            font-size: 40px;
         }
 
         p {
@@ -739,11 +739,16 @@ main {
 
             .f-3 {
                 margin-top: auto;
+                margin-bottom: auto;
                 text-align: center;
             }
 
             .r-sociales {
                 justify-content: center;
+
+                img {
+                    padding-left: 10px;
+                }
             }
         }
     }

@@ -472,7 +472,7 @@ main .attribution {
     background: no-repeat 0% 0%/100% url("/images/bg-header-mobile.png");
   }
   header h1 {
-    font-size: 49px;
+    font-size: 40px;
   }
   header p {
     width: auto;
@@ -590,10 +590,14 @@ main .attribution {
   }
   main .footer .f-3 {
     margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
   }
   main .footer .r-sociales {
     justify-content: center;
+  }
+  main .footer .r-sociales img {
+    padding-left: 10px;
   }
 }
 
