@@ -382,6 +382,58 @@ main .attribution {
   main .options .option-3 img {
     width: 40px;
   }
+  main .logos {
+    height: 50px;
+  }
+  main .logos .google {
+    height: 100%;
+    align-items: center;
+  }
+  main .logos .google img {
+    width: 100px;
+  }
+  main .logos .ibm {
+    height: 100%;
+    align-items: center;
+  }
+  main .logos .ibm img {
+    width: 100px;
+  }
+  main .logos .Microsoft {
+    height: 100%;
+    align-items: center;
+  }
+  main .logos .Microsoft img {
+    width: 100px;
+  }
+  main .logos .hp {
+    height: 100%;
+    align-items: center;
+  }
+  main .logos .hp img {
+    width: 100px;
+  }
+  main .logos .vector {
+    height: 100%;
+    align-items: center;
+  }
+  main .logos .vector img {
+    width: 100px;
+  }
+  main .section-3 {
+    align-items: center;
+  }
+  main .section-3 h4 {
+    text-align: center;
+  }
+  main .section-3 p {
+    width: 60%;
+    text-align: center;
+  }
+  main .footer .r-sociales img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
