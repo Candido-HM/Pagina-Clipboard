@@ -569,3 +569,182 @@ main {
         }
     }
 }
+
+@media (max-width: 585px){
+    header {
+        padding: 35px;
+        background: no-repeat 0% 0% / 100% url('/images/bg-header-mobile.png');
+
+        h1 {
+            font-size: 49px;
+        }
+
+        p {
+            width: auto;
+            font-size: 25px;
+        }
+
+        .botones {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+
+            .btn-1{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .btn-2{
+                width: 100%;
+                margin: auto;
+            }
+        }
+    }
+
+    main {
+        div {
+            align-items: center;
+            p {
+                width: 80%;
+            }
+        }
+        .section-1 {
+            flex-direction: column;
+
+            .img-desk{
+                width: 85%;
+                height: 380px;
+                background: no-repeat 0% 0% / 100% url('/images/image-computer.png');
+            }
+
+            .info-1 {
+                width: auto;
+                align-items: center;
+
+                h3 {
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+        .section-2 {
+
+            p {
+                width: 80%;
+            }
+
+            img {
+                width: 90%;
+            }
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+
+            .option-1 {
+                width: 100%;
+                height: auto;
+            }
+
+            .option-2 {
+                width: 100%;
+                height: auto;
+            }
+
+            .option-3 {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .logos {
+            height: auto;
+            flex-direction: column;
+
+            .google {
+                img {
+                    width: 200px;
+                }
+            }
+
+            .ibm {
+                img {
+                    width: 200px;
+                }
+            }
+
+            .Microsoft {
+                img {
+                    width: 200px;
+                }
+            }
+
+            .hp {
+                img {
+                    width: 200px;
+                }
+            }
+
+            .vector {
+                img {
+                    width: 200px;
+                }
+            }
+        }
+
+        .section-3 {
+
+            h4 {
+                width: 60%;
+            }
+
+            .botones-2{
+                width: 70%;
+                flex-direction: column;
+
+                .btn-os {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    margin-right: 0px;
+                }
+
+                .btn-mac {
+                    width: 100%;
+                    margin-left: 0px;
+                }
+            }
+        }
+        .footer {
+            height: auto;
+            flex-direction: column;
+
+            .logo {
+                margin-top: 50px;
+            }
+
+            .f-1 {
+                text-align: center;
+                margin-bottom: auto;
+            }
+
+            .f-2 {
+                text-align: center;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+            .f-3 {
+                margin-top: auto;
+                text-align: center;
+            }
+
+            .r-sociales {
+                justify-content: center;
+            }
+        }
+    }
+}
