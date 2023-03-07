@@ -374,6 +374,9 @@ main .attribution {
   main .options .option-2 img {
     width: 40px;
   }
+  main .options .option-2 p {
+    width: 40%;
+  }
   main .options .option-3 {
     display: flex;
     justify-content: center;
@@ -431,8 +434,30 @@ main .attribution {
     text-align: center;
   }
   main .footer .r-sociales img {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 650px) {
+  main .options .option-1 h4 {
+    font-size: 15px;
+  }
+  main .options .option-1 p {
+    font-size: 12px;
+  }
+  main .options .option-2 h4 {
+    font-size: 15px;
+  }
+  main .options .option-2 p {
+    width: auto;
+    font-size: 12px;
+  }
+  main .options .option-3 h4 {
+    font-size: 15px;
+  }
+  main .options .option-3 p {
+    width: auto;
+    font-size: 12px;
   }
 }
 

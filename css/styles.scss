@@ -443,6 +443,10 @@ main {
                 img {
                     width: 40px;
                 }
+
+                p {
+                    width: 40%;   
+                }
             }
 
             .option-3{
@@ -515,9 +519,48 @@ main {
 
             .r-sociales{
                  img {
-                    width: 50px;
-                    height: 50px;
+                    width: 20px;
+                    height: 20px;
                  }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px){
+    main {
+        .options {
+
+            .option-1 {
+                h4 {
+                    font-size: 15px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+
+            .option-2 {
+                h4 {
+                    font-size: 15px;
+                }
+
+                p {
+                    width: auto;
+                    font-size: 12px;
+                }
+            }
+
+            .option-3 {
+                h4 {
+                    font-size: 15px;
+                }
+
+                p {
+                    width: auto;
+                    font-size: 12px;
+                }
             }
         }
     }
