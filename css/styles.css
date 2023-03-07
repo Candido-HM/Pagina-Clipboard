@@ -433,9 +433,15 @@ main .attribution {
     width: 60%;
     text-align: center;
   }
+  main .footer .r-sociales {
+    padding-top: 30px;
+  }
   main .footer .r-sociales img {
     width: 20px;
     height: 20px;
+  }
+  main .footer .attribution {
+    margin: 0px;
   }
 }
 @media (max-width: 650px) {
