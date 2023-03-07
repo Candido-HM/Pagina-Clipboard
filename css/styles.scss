@@ -422,6 +422,39 @@ main {
                 width: auto;
             }
         }
+
+        .options {
+
+            .option-1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 40px;
+                }
+            }
+
+            .option-2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 40px;
+                }
+            }
+
+            .option-3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 40px;
+                }
+            }
+        }
        
     }
 }

@@ -358,6 +358,30 @@ main .attribution {
   main .section-2 p {
     width: auto;
   }
+  main .options .option-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .options .option-1 img {
+    width: 40px;
+  }
+  main .options .option-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .options .option-2 img {
+    width: 40px;
+  }
+  main .options .option-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .options .option-3 img {
+    width: 40px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
