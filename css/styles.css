@@ -55,6 +55,14 @@ header .botones .btn-1 {
   font-size: 1rem;
   margin-right: 10px;
   box-shadow: 0px 0px 0px 1px #61C4B5, 0px 10px 15px 1px #c2fced;
+  transition: all 500ms;
+}
+header .botones .btn-1:hover {
+  cursor: pointer;
+  color: #D7F7F4;
+  background-color: #5DCCBB;
+  border: 1px solid #5AC8B5;
+  box-shadow: 0px 0px 0px 1px #A0DDD4, 0px 10px 15 1px #D0F9EC;
 }
 header .botones .btn-2 {
   width: 200px;
@@ -67,6 +75,14 @@ header .botones .btn-2 {
   font-size: 1rem;
   margin-left: 10px;
   box-shadow: 0px 0px 0px 1px #8895E6, 0px 10px 15px 1px #DFE3F9;
+  transition: all 500ms;
+}
+header .botones .btn-2:hover {
+  cursor: pointer;
+  color: #EDF7FD;
+  background-color: #8896FF;
+  border: 1px solid #8493FA;
+  box-shadow: 0x 0px 0px 1px #B8C3F0, 0px 10px 15px 1px #EAEEF4;
 }
 
 main {
@@ -223,6 +239,14 @@ main .section-3 .botones-2 .btn-os {
   font-size: 1rem;
   margin-right: 10px;
   box-shadow: 0px 0px 0px 1px #61C4B5, 0px 10px 15px 1px #c2fced;
+  transition: all 500ms;
+}
+main .section-3 .botones-2 .btn-os:hover {
+  cursor: pointer;
+  color: #D9F7F4;
+  background-color: #5DCCBB;
+  border: 1px solid #63C6B5;
+  box-shadow: 0px 0px 0px 1px #D4F5F2, 0x 10px 15px 1px #BCF0E3;
 }
 main .section-3 .botones-2 .btn-mac {
   width: 200px;
@@ -235,6 +259,14 @@ main .section-3 .botones-2 .btn-mac {
   font-size: 1rem;
   margin-left: 10px;
   box-shadow: 0px 0px 0px 1px #8895E6, 0px 10px 15px 1px #DFE3F9;
+  transition: all 500ms;
+}
+main .section-3 .botones-2 .btn-mac:hover {
+  cursor: pointer;
+  color: #F3FCFF;
+  background-color: #8896FF;
+  border: 1px solid #8493F5;
+  box-shadow: 0px 0px 0px 1px #AFB9ED, 0px 10px 15px 1px #CDD3F1;
 }
 main .footer {
   width: 100%;
@@ -272,6 +304,11 @@ main .footer .f-1 ul li a {
   color: #75797C;
   text-decoration: none;
   font-family: Bai-regular;
+  transition: all 300ms;
+}
+main .footer .f-1 ul li a:hover {
+  cursor: pointer;
+  color: #7AD3C0;
 }
 main .footer .f-2 {
   width: 100%;
@@ -309,6 +346,10 @@ main .footer .r-sociales {
 }
 main .footer .r-sociales img {
   padding-right: 20px;
+  transition: all 500m;
+}
+main .footer .r-sociales img:hover {
+  cursor: pointer;
 }
 main .attribution {
   width: 100%;
